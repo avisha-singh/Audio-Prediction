@@ -1,0 +1,38 @@
+body{
+    background-image:url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_626660256_2000108620009280158_388846.jpg");
+    background-repeat: no-repeat;
+    background-size: 1300px 600px;
+}
+.tle{
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    text-shadow: 2px 2px black;
+}
+.desc{
+    color:lime;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: black ;
+    text-align: center;
+    font-size:29px;
+}
+.fill{
+    text-align: center;
+    font-size:29px;
+}
+.form{
+    color:black;
+    text-align: center;
+}
+mark{
+    background-color: yellow;
+    color: darkorchid;
+    text-shadow: 1px 1px black;
+}
+input{
+    text-align: center;
+    border: 3px solid black;
+    background-color:aqua;
+}
+

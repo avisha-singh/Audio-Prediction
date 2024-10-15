@@ -1,0 +1,25 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/Page.css') }}">
+</head>
+<body>
+    <span class="tle">
+    <h1>MUSIC GENRE CLASSIFICATION</h1>
+    </span>
+    <span class="desc">
+    <h4>(Here you can find the GENRE of your audio file.)</h4>
+    </span>
+    <br>
+    <span class="fill">
+    <h4><mark>Please select Audio File.</mark></h3>
+    </span>
+    <br>
+    <span class="form">
+    <form class="grid" action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" placeholder="Audio" required="required" accept=".wav" class = "upload"/>
+        <br><br><br>
+        <input type="submit" value="Submit" class="sub">
+    </form>
+    </span>
+</body>
+</html>
